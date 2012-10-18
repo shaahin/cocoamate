@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB95EAD8161D5BB6000BF333 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB95EAD7161D5BB6000BF333 /* UIKit.framework */; };
+		EB95EADA161D5BB6000BF333 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB95EAD9161D5BB6000BF333 /* Foundation.framework */; };
+		EB95EADC161D5BB6000BF333 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB95EADB161D5BB6000BF333 /* CoreGraphics.framework */; };
+		EB95EAE2161D5BB6000BF333 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB95EAE0161D5BB6000BF333 /* InfoPlist.strings */; };
+		EB95EAE4161D5BB6000BF333 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB95EAE3161D5BB6000BF333 /* main.m */; };
+		EB95EAE8161D5BB6000BF333 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB95EAE7161D5BB6000BF333 /* AppDelegate.m */; };
+		EB95EAEA161D5BB6000BF333 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EB95EAE9161D5BB6000BF333 /* Default.png */; };
+		EB95EAEC161D5BB6000BF333 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB95EAEB161D5BB6000BF333 /* Default@2x.png */; };
+		EB95EAEE161D5BB6000BF333 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB95EAED161D5BB6000BF333 /* Default-568h@2x.png */; };
+		EB95EAF1161D5BB6000BF333 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB95EAEF161D5BB6000BF333 /* MainStoryboard.storyboard */; };
+		EB95EAF4161D5BB6000BF333 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB95EAF3161D5BB6000BF333 /* ViewController.m */; };
+		EB95EAFC161D5D31000BF333 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB95EAFB161D5D31000BF333 /* NewsTableViewController.m */; };
+		EB95EAFF161D5FF2000BF333 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB95EAFE161D5FF2000BF333 /* CalculatorViewController.m */; };
+		EB95EB0C161DAFF3000BF333 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB95EB0B161DAFF3000BF333 /* AnimationViewController.m */; };
+		EBFF6C20161EF8FA00511575 /* DSActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFF6C1F161EF8FA00511575 /* DSActivityView.m */; };
+		EBFF6C26161F007700511575 /* NewsDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFF6C25161F007700511575 /* NewsDetailsViewController.m */; };
+		EBFF79DC161F0C8700511575 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFF79C9161F0C8700511575 /* MKAnnotationView+WebCache.m */; };
+		EBFF79DD161F0C8700511575 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFF79CB161F0C8700511575 /* SDImageCache.m */; };
+		EBFF79DE161F0C8700511575 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFF79CF161F0C8700511575 /* SDWebImageDecoder.m */; };
+		EBFF79DF161F0C8700511575 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFF79D1161F0C8700511575 /* SDWebImageDownloader.m */; };
+		EBFF79E0161F0C8700511575 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFF79D4161F0C8700511575 /* SDWebImageManager.m */; };
+		EBFF79E1161F0C8700511575 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFF79D7161F0C8700511575 /* SDWebImagePrefetcher.m */; };
+		EBFF79E2161F0C8700511575 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFF79D9161F0C8700511575 /* UIButton+WebCache.m */; };
+		EBFF79E3161F0C8700511575 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFF79DB161F0C8700511575 /* UIImageView+WebCache.m */; };
+		EBFF79E8161F0CF400511575 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFF79E7161F0CF400511575 /* MapKit.framework */; };
+		EBFF79EA161F0D1800511575 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFF79E9161F0D1800511575 /* QuartzCore.framework */; };
+		EBFF79EC161F0D2C00511575 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFF79EB161F0D2C00511575 /* ImageIO.framework */; };
+		EBFF79EE161F0E2500511575 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFF79ED161F0E2500511575 /* loading.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB95EAD3161D5BB6000BF333 /* Rubako.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rubako.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB95EAD7161D5BB6000BF333 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB95EAD9161D5BB6000BF333 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB95EADB161D5BB6000BF333 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB95EADF161D5BB6000BF333 /* Rubako2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rubako2-Info.plist"; sourceTree = "<group>"; };
+		EB95EAE1161D5BB6000BF333 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB95EAE3161D5BB6000BF333 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB95EAE5161D5BB6000BF333 /* Rubako2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rubako2-Prefix.pch"; sourceTree = "<group>"; };
+		EB95EAE6161D5BB6000BF333 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB95EAE7161D5BB6000BF333 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB95EAE9161D5BB6000BF333 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EB95EAEB161D5BB6000BF333 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EB95EAED161D5BB6000BF333 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EB95EAF0161D5BB6000BF333 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EB95EAF2161D5BB6000BF333 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB95EAF3161D5BB6000BF333 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB95EAFA161D5D31000BF333 /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsTableViewController.h; path = Rubako2/NewsTableViewController.h; sourceTree = "<group>"; };
+		EB95EAFB161D5D31000BF333 /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsTableViewController.m; path = Rubako2/NewsTableViewController.m; sourceTree = "<group>"; };
+		EB95EAFD161D5FF2000BF333 /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalculatorViewController.h; path = Rubako2/CalculatorViewController.h; sourceTree = "<group>"; };
+		EB95EAFE161D5FF2000BF333 /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalculatorViewController.m; path = Rubako2/CalculatorViewController.m; sourceTree = "<group>"; };
+		EB95EB0A161DAFF3000BF333 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimationViewController.h; path = Rubako2/AnimationViewController.h; sourceTree = "<group>"; };
+		EB95EB0B161DAFF3000BF333 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimationViewController.m; path = Rubako2/AnimationViewController.m; sourceTree = "<group>"; };
+		EBFF6C1E161EF8FA00511575 /* DSActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSActivityView.h; path = Rubako2/DSActivityView.h; sourceTree = "<group>"; };
+		EBFF6C1F161EF8FA00511575 /* DSActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSActivityView.m; path = Rubako2/DSActivityView.m; sourceTree = "<group>"; };
+		EBFF6C24161F007700511575 /* NewsDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailsViewController.h; sourceTree = "<group>"; };
+		EBFF6C25161F007700511575 /* NewsDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailsViewController.m; sourceTree = "<group>"; };
+		EBFF79C8161F0C8700511575 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		EBFF79C9161F0C8700511575 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		EBFF79CA161F0C8700511575 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		EBFF79CB161F0C8700511575 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		EBFF79CC161F0C8700511575 /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCacheDelegate.h; sourceTree = "<group>"; };
+		EBFF79CD161F0C8700511575 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		EBFF79CE161F0C8700511575 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		EBFF79CF161F0C8700511575 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		EBFF79D0161F0C8700511575 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		EBFF79D1161F0C8700511575 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		EBFF79D2161F0C8700511575 /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderDelegate.h; sourceTree = "<group>"; };
+		EBFF79D3161F0C8700511575 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		EBFF79D4161F0C8700511575 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		EBFF79D5161F0C8700511575 /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManagerDelegate.h; sourceTree = "<group>"; };
+		EBFF79D6161F0C8700511575 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		EBFF79D7161F0C8700511575 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		EBFF79D8161F0C8700511575 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		EBFF79D9161F0C8700511575 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		EBFF79DA161F0C8700511575 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		EBFF79DB161F0C8700511575 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		EBFF79E7161F0CF400511575 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EBFF79E9161F0D1800511575 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EBFF79EB161F0D2C00511575 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		EBFF79ED161F0E2500511575 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB95EAD0161D5BB6000BF333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFF79EC161F0D2C00511575 /* ImageIO.framework in Frameworks */,
+				EBFF79EA161F0D1800511575 /* QuartzCore.framework in Frameworks */,
+				EBFF79E8161F0CF400511575 /* MapKit.framework in Frameworks */,
+				EB95EAD8161D5BB6000BF333 /* UIKit.framework in Frameworks */,
+				EB95EADA161D5BB6000BF333 /* Foundation.framework in Frameworks */,
+				EB95EADC161D5BB6000BF333 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB95EAC8161D5BB6000BF333 = {
+			isa = PBXGroup;
+			children = (
+				EBFF6C23161EFFCC00511575 /* Classes */,
+				EBFF6C22161EFFBD00511575 /* Controllers */,
+				EB95EADD161D5BB6000BF333 /* Rubako */,
+				EB95EAD6161D5BB6000BF333 /* Frameworks */,
+				EB95EAD4161D5BB6000BF333 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB95EAD4161D5BB6000BF333 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB95EAD3161D5BB6000BF333 /* Rubako.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB95EAD6161D5BB6000BF333 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBFF79EB161F0D2C00511575 /* ImageIO.framework */,
+				EBFF79E9161F0D1800511575 /* QuartzCore.framework */,
+				EBFF79E7161F0CF400511575 /* MapKit.framework */,
+				EB95EAD7161D5BB6000BF333 /* UIKit.framework */,
+				EB95EAD9161D5BB6000BF333 /* Foundation.framework */,
+				EB95EADB161D5BB6000BF333 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB95EADD161D5BB6000BF333 /* Rubako */ = {
+			isa = PBXGroup;
+			children = (
+				EB95EAE6161D5BB6000BF333 /* AppDelegate.h */,
+				EB95EAE7161D5BB6000BF333 /* AppDelegate.m */,
+				EB95EAF2161D5BB6000BF333 /* ViewController.h */,
+				EB95EAF3161D5BB6000BF333 /* ViewController.m */,
+				EB95EAEF161D5BB6000BF333 /* MainStoryboard.storyboard */,
+				EB95EADE161D5BB6000BF333 /* Supporting Files */,
+			);
+			name = Rubako;
+			path = Rubako2;
+			sourceTree = "<group>";
+		};
+		EB95EADE161D5BB6000BF333 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBFF79ED161F0E2500511575 /* loading.png */,
+				EB95EADF161D5BB6000BF333 /* Rubako2-Info.plist */,
+				EB95EAE0161D5BB6000BF333 /* InfoPlist.strings */,
+				EB95EAE3161D5BB6000BF333 /* main.m */,
+				EB95EAE5161D5BB6000BF333 /* Rubako2-Prefix.pch */,
+				EB95EAE9161D5BB6000BF333 /* Default.png */,
+				EB95EAEB161D5BB6000BF333 /* Default@2x.png */,
+				EB95EAED161D5BB6000BF333 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBFF6C22161EFFBD00511575 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EB95EAFA161D5D31000BF333 /* NewsTableViewController.h */,
+				EB95EAFB161D5D31000BF333 /* NewsTableViewController.m */,
+				EB95EAFD161D5FF2000BF333 /* CalculatorViewController.h */,
+				EB95EAFE161D5FF2000BF333 /* CalculatorViewController.m */,
+				EB95EB0A161DAFF3000BF333 /* AnimationViewController.h */,
+				EB95EB0B161DAFF3000BF333 /* AnimationViewController.m */,
+				EBFF6C24161F007700511575 /* NewsDetailsViewController.h */,
+				EBFF6C25161F007700511575 /* NewsDetailsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EBFF6C23161EFFCC00511575 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EBFF79C7161F0C8700511575 /* SDWebImage */,
+				EBFF6C1E161EF8FA00511575 /* DSActivityView.h */,
+				EBFF6C1F161EF8FA00511575 /* DSActivityView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		EBFF79C7161F0C8700511575 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				EBFF79C8161F0C8700511575 /* MKAnnotationView+WebCache.h */,
+				EBFF79C9161F0C8700511575 /* MKAnnotationView+WebCache.m */,
+				EBFF79CA161F0C8700511575 /* SDImageCache.h */,
+				EBFF79CB161F0C8700511575 /* SDImageCache.m */,
+				EBFF79CC161F0C8700511575 /* SDImageCacheDelegate.h */,
+				EBFF79CD161F0C8700511575 /* SDWebImageCompat.h */,
+				EBFF79CE161F0C8700511575 /* SDWebImageDecoder.h */,
+				EBFF79CF161F0C8700511575 /* SDWebImageDecoder.m */,
+				EBFF79D0161F0C8700511575 /* SDWebImageDownloader.h */,
+				EBFF79D1161F0C8700511575 /* SDWebImageDownloader.m */,
+				EBFF79D2161F0C8700511575 /* SDWebImageDownloaderDelegate.h */,
+				EBFF79D3161F0C8700511575 /* SDWebImageManager.h */,
+				EBFF79D4161F0C8700511575 /* SDWebImageManager.m */,
+				EBFF79D5161F0C8700511575 /* SDWebImageManagerDelegate.h */,
+				EBFF79D6161F0C8700511575 /* SDWebImagePrefetcher.h */,
+				EBFF79D7161F0C8700511575 /* SDWebImagePrefetcher.m */,
+				EBFF79D8161F0C8700511575 /* UIButton+WebCache.h */,
+				EBFF79D9161F0C8700511575 /* UIButton+WebCache.m */,
+				EBFF79DA161F0C8700511575 /* UIImageView+WebCache.h */,
+				EBFF79DB161F0C8700511575 /* UIImageView+WebCache.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB95EAD2161D5BB6000BF333 /* Rubako */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB95EAF7161D5BB6000BF333 /* Build configuration list for PBXNativeTarget "Rubako" */;
+			buildPhases = (
+				EB95EACF161D5BB6000BF333 /* Sources */,
+				EB95EAD0161D5BB6000BF333 /* Frameworks */,
+				EB95EAD1161D5BB6000BF333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rubako;
+			productName = Rubako2;
+			productReference = EB95EAD3161D5BB6000BF333 /* Rubako.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB95EACA161D5BB6000BF333 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Shahin Katebi";
+			};
+			buildConfigurationList = EB95EACD161D5BB6000BF333 /* Build configuration list for PBXProject "Rubako2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+				da,
+				de,
+				el,
+				es,
+				fr,
+				he,
+				it,
+				nl,
+				pl,
+				pt,
+				ro,
+				ru,
+				sr,
+				sv,
+				uk,
+				zh_CN,
+				zh_TW,
+			);
+			mainGroup = EB95EAC8161D5BB6000BF333;
+			productRefGroup = EB95EAD4161D5BB6000BF333 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB95EAD2161D5BB6000BF333 /* Rubako */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB95EAD1161D5BB6000BF333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB95EAE2161D5BB6000BF333 /* InfoPlist.strings in Resources */,
+				EB95EAEA161D5BB6000BF333 /* Default.png in Resources */,
+				EB95EAEC161D5BB6000BF333 /* Default@2x.png in Resources */,
+				EB95EAEE161D5BB6000BF333 /* Default-568h@2x.png in Resources */,
+				EB95EAF1161D5BB6000BF333 /* MainStoryboard.storyboard in Resources */,
+				EBFF79EE161F0E2500511575 /* loading.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB95EACF161D5BB6000BF333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB95EAE4161D5BB6000BF333 /* main.m in Sources */,
+				EB95EAE8161D5BB6000BF333 /* AppDelegate.m in Sources */,
+				EB95EAF4161D5BB6000BF333 /* ViewController.m in Sources */,
+				EB95EAFC161D5D31000BF333 /* NewsTableViewController.m in Sources */,
+				EB95EAFF161D5FF2000BF333 /* CalculatorViewController.m in Sources */,
+				EB95EB0C161DAFF3000BF333 /* AnimationViewController.m in Sources */,
+				EBFF6C20161EF8FA00511575 /* DSActivityView.m in Sources */,
+				EBFF6C26161F007700511575 /* NewsDetailsViewController.m in Sources */,
+				EBFF79DC161F0C8700511575 /* MKAnnotationView+WebCache.m in Sources */,
+				EBFF79DD161F0C8700511575 /* SDImageCache.m in Sources */,
+				EBFF79DE161F0C8700511575 /* SDWebImageDecoder.m in Sources */,
+				EBFF79DF161F0C8700511575 /* SDWebImageDownloader.m in Sources */,
+				EBFF79E0161F0C8700511575 /* SDWebImageManager.m in Sources */,
+				EBFF79E1161F0C8700511575 /* SDWebImagePrefetcher.m in Sources */,
+				EBFF79E2161F0C8700511575 /* UIButton+WebCache.m in Sources */,
+				EBFF79E3161F0C8700511575 /* UIImageView+WebCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB95EAE0161D5BB6000BF333 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB95EAE1161D5BB6000BF333 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB95EAEF161D5BB6000BF333 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB95EAF0161D5BB6000BF333 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB95EAF5161D5BB6000BF333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB95EAF6161D5BB6000BF333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB95EAF8161D5BB6000BF333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/@Mac/Shaahin.us/build/Release\"",
+					"\"$(SRCROOT)/@Mac/sweeb\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rubako2/Rubako2-Prefix.pch";
+				INFOPLIST_FILE = "Rubako2/Rubako2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/@Mac/ripdev-Icy-68bbc38/Sources/Backend/Network\"",
+					"\"$(SRCROOT)/@Mac/Shaahin.us/build/Shaahin.us.build/Release/Shaahin.us.build/Objects-normal/i386\"",
+					"\"$(SRCROOT)/@Mac/Shaahin.us/build/Shaahin.us.build/Release/Shaahin.us.build/Objects-normal/x86_64\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB95EAF9161D5BB6000BF333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/@Mac/Shaahin.us/build/Release\"",
+					"\"$(SRCROOT)/@Mac/sweeb\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rubako2/Rubako2-Prefix.pch";
+				INFOPLIST_FILE = "Rubako2/Rubako2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/@Mac/ripdev-Icy-68bbc38/Sources/Backend/Network\"",
+					"\"$(SRCROOT)/@Mac/Shaahin.us/build/Shaahin.us.build/Release/Shaahin.us.build/Objects-normal/i386\"",
+					"\"$(SRCROOT)/@Mac/Shaahin.us/build/Shaahin.us.build/Release/Shaahin.us.build/Objects-normal/x86_64\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB95EACD161D5BB6000BF333 /* Build configuration list for PBXProject "Rubako2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB95EAF5161D5BB6000BF333 /* Debug */,
+				EB95EAF6161D5BB6000BF333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB95EAF7161D5BB6000BF333 /* Build configuration list for PBXNativeTarget "Rubako" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB95EAF8161D5BB6000BF333 /* Debug */,
+				EB95EAF9161D5BB6000BF333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB95EACA161D5BB6000BF333 /* Project object */;
+}
